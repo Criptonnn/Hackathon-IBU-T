@@ -2,6 +2,7 @@
     --clr-accent: hsl(27, 90%, 50%);
     --clr-accent-light: hsl(27, 90%, 57%);
     --clr-black: hsl(0, 0%, 15%);
+    --clr-white: hsl(0, 0%, 98%);
 }
 
 * {
@@ -15,6 +16,8 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+
+    background-color: var(--clr-white);
 }
 
 .home-container {
@@ -25,13 +28,13 @@ body {
     height: 100vh;
 
     /* padding-bottom: 10em ; */
-    margin-bottom: 10em;
+    margin-bottom: 10em; 
 
     /* background: linear-gradient(90deg, rgba(255,255,255,0) 35%, rgba(255,255,255,0.8) 100%); */
 }
 .filter-container {
     height: 100%;
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 75%, rgba(255,255,255, 1) 100%);
+    background: linear-gradient(to bottom, hsla(0, 0%, 100%, 0) 75%, hsla(0, 0%, 98%) 100%);
 }
 
 /* .filter-container {
@@ -116,6 +119,8 @@ ul, ol {
     line-height: 56px;
 
     color: hsl(0, 0%, 15%);
+
+    /* margin-bottom: 90px; */
 }
 .main--title span {
     color: var(--clr-accent);
@@ -155,4 +160,66 @@ ul, ol {
 }
 .main--btn:hover {
     background-color: var(--clr-accent-light);
+}
+
+/* FIND OUT */
+
+.info--container {
+    width: 77%;
+    /* max-width: 700px; */
+    margin: 0 auto;
+}
+
+.info--title {
+    font-size: 34px;
+    text-align: center;
+    color: var(--clr-accent);
+}
+
+.find-out--info {
+    /* width: 60%; */
+    text-align: center;
+    line-height: 34px;
+
+    margin-bottom: 3em;
+}
+
+.three--col__section {
+    /* margin-top: 5em; */
+    padding-block: 3em;
+
+    background-color: white;
+    /* background: linear-gradient(to top, hsla(0, 0%, 100%, 100%) 85%, hsla(0, 0%, 98%) 100%); */
+
+}
+.three--col__section h2 {
+    text-align: center;
+    color: var(--clr-accent);
+
+    margin-bottom: 2em;
+    font-weight: 600;
+}
+
+.three--col {
+    display: flex;
+    justify-content: space-between;
+}
+.three--col > * {
+    flex-basis: 100%;
+}
+
+.three--col__item {
+    text-align: center;
+}
+.three--col__item h3 {
+    color: var(--clr-accent);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: hsl(0, 0%, 10%);
+    color: var(--clr-white);
 }
