@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
     <title>Smart Garage</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -23,14 +23,14 @@
                             <a href="index.html"><img src="images/logo.png" alt="nav-logo"></a>
                         </div>
                         <ul class="nav--list">
-                            <li class="nav--list__item"><a href="#">Početna</a></li>
+                            <li class="nav--list__item"><a href="index.html">Početna</a></li>
                             <li class="nav--list__item drop">
                                 <a href="#">Usluge <span class="material-symbols-outlined">arrow_drop_down</span></a>
                                 <ul class="dropdown">
-                                    <li class="dropdown__item"><a href="#">Automatsko otvaranje/zatvaranje</a></li>
-                                    <li class="dropdown__item"><a href="#">Regulacija temperature</a></li>
-                                    <li class="dropdown__item"><a href="#">Sistem pametnog parkiranja</a></li>
-                                    <li class="dropdown__item"><a href="#">Sigurnosni sistem</a></li>
+                                    <li class="dropdown__item"><a href="auto.html">Automatsko otvaranje/zatvaranje</a></li>
+                                    <li class="dropdown__item"><a href="temp.html">Regulacija temperature</a></li>
+                                    <li class="dropdown__item"><a href="park.html">Sistem pametnog parkiranja</a></li>
+                                    <li class="dropdown__item"><a href="security.html">Sigurnosni sistem</a></li>
                                 </ul>
                             </li>
                             <li class="nav--list__item"><a href="#">Pridruži se</a></li>
@@ -38,7 +38,8 @@
                     </div>
                     <div class="main--container">
                         <div class="main--info">
-                            <h1 class="main--title"><span>Smart</span> Garage</h1>
+                            <h1 class="main--title"><span>Smart</span></h1>
+                            <h1 class="main--title">Garage</h1>
                             <p class="main--slogan">Unaprijedite svoju garažu uz Smart Garage.</p>
                             <p class="main--info">Recite zbogom zastarjelim garažama i preuzmite kontrolu nad vašom garažom kao nikad prije uz</p>
                             <p class="main--info"><span>Smart Garage</span> - najpametniju, najmoćniju aplikaciju na tržištu!</p>
@@ -62,26 +63,44 @@
                         Sve u svemu, Smart Garage je odlična investicija koja dodaje udobnost, sigurnost i mir u vaš svakodnevni život. Ako još niste nadogradili sistem garažnih vrata, Smart Garage je pravi izbor za vas!</p>
                 </div>
                     <div class="three--col__section">
-                        <h2>Neke od funkcionalnosti</h2>
-                        <div class="three--col">
-                            <div class="three--col__item">
-                                <span class="material-symbols-outlined">precision_manufacturing</span>
-                                <h3>Automatski rad</h3>
-                            </div>
-                            <div class="three--col__item">
-                                <span class="material-symbols-outlined">security</span>
-                                <h3>Sigurnosna upozorenja</h3>
-                            </div>
-                            <div class="three--col__item">
-                                <span class="material-symbols-outlined">device_thermostat</span>
-                                <h3>Regulacija temperature</h3>
+                        <div class="info--container">
+                            <h2>Neke od funkcionalnosti</h2>
+                            <div class="three--col">
+                                <div class="three--col__item">
+                                    <span class="material-symbols-outlined">precision_manufacturing</span>
+                                    <h3>Automatski rad</h3>
+                                </div>
+                                <div class="three--col__item">
+                                    <span class="material-symbols-outlined">security</span>
+                                    <h3>Sigurnosna upozorenja</h3>
+                                </div>
+                                <div class="three--col__item">
+                                    <span class="material-symbols-outlined">device_thermostat</span>
+                                    <h3>Regulacija temperature</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
             </div>
             <footer>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, quidem illo optio necessitatibus earum amet.</p>
-                <h2>title</h2>
+                <div class="footer--container">
+                    <div class="footer--flex">
+                        <ul class="footer--services">
+                            <li><h3 class="footer--services--title">Usluge</h3></li>
+                            <li class="footer--services__item"><a href="#">Automatsko otvaranje/zatvaranje</a></li>
+                            <li class="footer--services__item"><a href="#">Regulacija temperature</a></li>
+                            <li class="footer--services__item"><a href="#">Sistem pametnog parkiranja</a></li>
+                            <li class="footer--services__item"><a href="#">Sigurnosni sistem</a></li>
+                        </ul>
+                        <ul class="footer--contact">
+                            <li class="footer--contact__item"><h3 class="footer--contact--title">Kontakt</h3></li>
+                            <li class="footer--contact__item"><p>Adresa: Zmaj od Bosne 54 </p></li>
+                            <li class="footer--contact__item"><p>Email: info@smartgarage.ba</p></li>
+                            <li class="footer--contact__item"><p>Kontakt: 033/633-500</p></li>
+                        </ul>
+                    </div>
+                    <p class="footer--banner"><span>SmartGarage</span>2023® all rights reserved</p>
+                </div>
             </footer>
 
 </body>
