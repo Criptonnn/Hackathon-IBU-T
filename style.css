@@ -1,14 +1,131 @@
+:root {
+    --clr-accent: hsl(27, 90%, 50%);
+    --clr-accent-light: hsl(27, 90%, 57%);
+    --clr-black: hsl(0, 0%, 15%);
+}
+
 * {
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+
+    scroll-behavior: smooth;
 }
 
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
+
 }
 
 img {
     max-width: 100%;
+}
+
+ul, ol {
+    padding: 0;
+}
+
+.main--container {
+    width: 60%;
+    max-width: 600px;
+    padding-left: 10em;
+    /* padding-top: 2em; */
+}
+
+.background-img {
+    position: absolute;
+    inset: 0;
+
+    z-index: -1;
+
+    filter: contrast(0.7);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 3em 3em 0 10em;
+}
+
+.logo {
+    width: 54px;
+    height: 54px;
+}
+
+.nav--list {
+    display: flex;
+    gap: 2.25em;
+}
+
+.nav--list__item a {
+    display: flex;
+    color: var(--clr-black);
+}
+.nav--list__item a:hover {
+    color: var(--clr-accent);
+}
+.dropdown {
+    display: none;
+    position: absolute;
+}
+.dropdown li {
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    text-shadow: 1px 1px 3px white;
+    padding-block: 0.2em;
+}
+.dropdown li a:hover {
+    color: var(--clr-accent);
+}
+.drop:hover .dropdown{
+    display: block;
+
+    /* box-shadow: 1px 1px 5px white; */
+}
+
+.main--title {
+    font-size: 64px;
+    line-height: 56px;
+
+    color: hsl(0, 0%, 15%);
+}
+.main--title span {
+    color: var(--clr-accent);
+}
+
+.main--slogan {
+    margin-bottom: 0.25em;
+    font-weight: 500;
+
+    line-height: 26px;
+}
+.main--info {
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 26px;
+
+    margin-bottom: 0;
+}
+.main--info span {
+    color: var(--clr-accent);
+    font-weight: 700;
+}
+
+.main--btn {
+    background-color: var(--clr-accent);
+    width: max-content;
+    padding: 0.25em 1.75em;
+    margin-top: 2em;
+
+    border-radius: 50vh;
+
+}
+.main--btn p {
+    margin: 0;
+    color: black;
+    /* font-weight: 600; */
+}
+.main--btn:hover {
+    background-color: var(--clr-accent-light);
 }

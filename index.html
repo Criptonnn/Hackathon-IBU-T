@@ -6,30 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart Garage</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="background-img">
         <div class="img-filter"></div>
-        <img src="images/background-desktop.jpg" alt="" class="desktop-img">
+        <img src="images/background-desktopv2.jpg" alt="" class="desktop-img">
     </div>
-    <div class="nav">
-        <div class="logo">
-            <img src="http://unsplash.it/40/40" alt="nav-logo">
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="nav-logo"></a>
+            </div>
+            <ul class="nav--list">
+                <li class="nav--list__item"><a href="#">Početna</a></li>
+                <li class="nav--list__item drop">
+                    <a href="#">Usluge <span class="material-symbols-outlined">arrow_drop_down</span></a>
+                    <ul class="dropdown">
+                        <li class="dropdown__item"><a href="#">Automatsko otvaranje/zatvaranje</a></li>
+                        <li class="dropdown__item"><a href="#">Regulacija temperature</a></li>
+                        <li class="dropdown__item"><a href="#">Sistem pametnog parkiranja</a></li>
+                        <li class="dropdown__item"><a href="#">Sigurnosni sistem</a></li>
+                    </ul>
+                </li>
+                <li class="nav--list__item"><a href="#">Pridruži se</a></li>
+            </ul>
         </div>
-        <ul class="nav--list">
-            <li class="nav--list__item">Početna</li>
-            <li class="nav--list__item">Usluge</li>
-            <li class="nav--list__item">Pridruži se</li>
-        </ul>
-    </div>
-    <div class="main--info">
-        <h1 class="main--title"><span>Smart</span> Garage</h1>
-        <p class="main--slogan">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, necessitatibus?</p>
-        <div class="main--btn">
-            <p>Saznaj više</p>
+        <div class="main--container">
+            <div class="main--info">
+                <h1 class="main--title"><span>Smart</span> Garage</h1>
+                <p class="main--slogan">Unaprijedite svoju garažu uz Smart Garage.</p>
+                <p class="main--info">Recite zbogom zastarjelim garažama i preuzmite kontrolu nad vašom garažom kao nikad prije uz</p>
+                <p class="main--info"><span>Smart Garage</span> – najpametniju, najmoćniju aplikaciju na tržištu!</p>
+                <a href="#">
+                    <div class="main--btn">
+                        <p>Saznaj više</p>
+                    </div>
+                </a>
+            </div>
         </div>
-    </div>
 
 </body>
 </html>
