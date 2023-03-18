@@ -12,7 +12,7 @@ if (isset($_POST['submit'])) {
 
     if (!empty($Ime) && !empty($email)) {
 
-        $upit = "INSERT INTO tbl_pridruzi (Ime, e-mail) 
+        $upit = "INSERT INTO tbl_pridruzi (Ime, email) 
         VALUES ('{$Ime}', '{$email}')";
 
         mysqli_query($conn, $upit);
@@ -22,6 +22,4 @@ if (isset($_POST['submit'])) {
     else {
         echo "Podaci nisu unijeti. Sva polja moraju biti popunjena!";
     }
-
-    
 }
