@@ -1,0 +1,100 @@
+body{
+    background-image:linear-gradient(0deg, rgba(255,255,255,.65),rgba(255,255,255,.65)),url('images/background-desktopv2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-y: hidden;
+}
+
+
+div{
+    font-family: poppins;
+}
+
+.first-name{
+    width: 250px;
+    height: 30px;
+    border-color: grey;
+    border-style: solid;
+    font-family: poppins;
+}
+.Email{
+
+    display: block;
+    margin-top: 10px;
+    width: 250px;
+    height: 30px;
+    border-color: grey;
+    border-style: solid;
+    font-family: poppins;
+
+}
+.button-b{
+    display: block;
+    margin-top: 10px;
+    width: 258px;
+    height: 38px;
+    border-radius: 50vh;
+    border-color: grey;
+    border-style: solid;
+    background-color:hsl(27,90%,50%);
+    color: black;
+    font-size: larger;
+    font-family: Poppins;
+    border-style: none;
+    font-style: bold;
+}
+.button-b:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+ 
+.center {
+    margin: 10em auto;
+    /* width: 50vh; */
+    width: max-content;
+    /* height: 60vh; */
+    border: 3px solid black;
+    padding: 20px;
+    /* justify-content: center; */
+    height: 53vh;
+    background-color: rgba(255,255,255,.8);
+    display: grid;
+    place-items: center;
+    border-radius:5px;
+  }
+.title{
+    text-align: center;
+    font-style: bold;
+}
+
+form {
+    width: max-content;
+}
+
+
+.ikona{
+    margin: 0 auto;
+    width: 88px;
+    height: 88px;
+
+    display: grid;
+    place-items: center;
+    
+}
+
+.ikona span {
+    margin: 0 auto;
+    font-size: 75px;
+    }
+
+
+
+
+
+
+
+
+
+
+
