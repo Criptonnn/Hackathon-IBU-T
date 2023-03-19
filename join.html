@@ -10,22 +10,33 @@
     </head>
     <body>
 
-        
+        <div class="nav">
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="nav-logo"></a>
+            </div>
+            <ul class="nav--list">
+                <li class="nav--list__item"><a href="index.html">Početna</a></li>
+                <li class="nav--list__item drop">
+                    <a href="#">Usluge <span class="material-symbols-outlined">arrow_drop_down</span></a>
+                    <ul class="dropdown">
+                        <li class="dropdown__item"><a href="auto.html">Automatsko otvaranje/zatvaranje</a></li>
+                        <li class="dropdown__item"><a href="temp.html">Regulacija temperature</a></li>
+                        <li class="dropdown__item"><a href="park.html">Sistem pametnog parkiranja</a></li>
+                        <li class="dropdown__item"><a href="security.html">Sigurnosni sistem</a></li>
+                    </ul>
+                </li>
+                <li class="nav--list__item"><a href="join.html">Pridruži se</a></li>
+            </ul>
+        </div>
         <div class="center">
             <form action="POST">
-
-                
                  <div class="ikona">
-                     <span class="material-symbols-outlined"  >
-                        account_circle
-                                     </span>
+                     <span class="material-symbols-outlined">account_circle</span>
                  </div>
-                
                 <h2 class="title">Prijava</h2>
                 <input class="first-name" type="text" placeholder="Ime i Prezime">
                 <input class="Email" type="text " placeholder="Email">
                 <button class="button-b">Prijavi se </button>
-             
             </form>
         </div>
         
