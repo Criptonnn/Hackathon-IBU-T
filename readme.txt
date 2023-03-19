@@ -1,0 +1,2 @@
+- Otvoriti index.html file
+- join.html file je trebao biti spojen s bazom, ali imali smo problema sa serverom pa smo samo frontend dizajn ostavili. 
